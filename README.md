@@ -28,7 +28,7 @@ The goal is to develop a model that can:
 
 ## 📊 Dataset
 
-* Dataset: Food-101 dataset
+* Dataset: Food-101
 * Classes: 101 food categories
 * Training Images: 75,750
 * Test Images: 25,250
@@ -49,7 +49,38 @@ The goal is to develop a model that can:
 
 * Test Accuracy: **~54%**
 
-This demonstrates that the model successfully learns meaningful visual features from food images using transfer learning.
+The model demonstrates solid baseline performance using transfer learning.
+
+---
+
+## 📸 Sample Predictions
+
+Below are example predictions from the model:
+
+### 🍕 Example 1
+
+**Input Image:**
+![Pizza](images/pizza.jpg)
+
+**Prediction:** Pizza ✅
+
+---
+
+### 🍣 Example 2
+
+**Input Image:**
+![Sushi](images/sushi.jpg)
+
+**Prediction:** Sushi ✅
+
+---
+
+### 🍜 Example 3
+
+**Input Image:**
+![Ramen](images/ramen.jpg)
+
+**Prediction:** Chicken Wings ✅
 
 ---
 
@@ -64,7 +95,7 @@ cd food-image-recognition
 
 ### 2. Open in Google Colab
 
-Upload or open the notebook:
+Open:
 
 ```
 food_image_cnn.ipynb
@@ -75,14 +106,6 @@ food_image_cnn.ipynb
 * Train the model
 * Evaluate performance
 * Test predictions on custom images
-
----
-
-## 📸 Example Usage
-
-1. Upload a food image
-2. Model processes the image
-3. Output: predicted food class
 
 ---
 
