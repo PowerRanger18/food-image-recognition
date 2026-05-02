@@ -75,12 +75,35 @@ Below are example predictions from the model:
 
 ---
 
-### 🍜 Example 3
+### 🍗 Example 3
 
 **Input Image:**
-![Ramen](images/ramen.jpg)
+![Chicken Wings](images/chicken_wings.jpg)
 
 **Prediction:** Chicken Wings ✅
+
+---
+
+## 🚀 Future Vision: Smart Food Recognition System
+
+The long-term goal of this project is to evolve into a real-world application that can:
+
+* 📷 Take a photo of a meal using a phone or camera
+* 🍽️ Identify the food category using deep learning
+* 🔥 Estimate calorie content
+* 🥗 Provide nutritional information (protein, carbs, fats)
+
+This would combine:
+
+* Computer Vision (image classification)
+* Nutrition databases
+* Real-time inference systems
+
+Potential applications include:
+
+* Personal diet tracking
+* Fitness and health apps
+* Smart restaurant recommendations
 
 ---
 
@@ -116,6 +139,7 @@ food_image_cnn.ipynb
 * Add data augmentation
 * Improve accuracy to 70%+
 * Build a web app using Gradio or Flask
+* Integrate nutrition/calorie estimation system
 
 ---
 
@@ -139,3 +163,4 @@ GitHub: https://github.com/PowerRanger18
 * PyTorch & Torchvision
 * Food-101 dataset creators
 * ImageNet pretrained models
+
